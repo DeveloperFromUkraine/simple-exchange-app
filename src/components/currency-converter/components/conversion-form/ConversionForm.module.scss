@@ -1,0 +1,10 @@
+.amount-input {
+  width: 100%;
+}
+
+@media (width < 576px) {
+  .action-btn {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,31 @@
+@import "../../../../styles/global";
+
+.content-col-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.exchange-value {
+  font-size: 34px;
+  margin-top: 10px;
+  font-weight: 300;
+
+  &.exchange-value-to {
+    color: $accent-color;
+    font-weight: bold;
+  }
+}
+
+.exchange-value-single-wrapper {
+  margin: 25px 0;
+
+  .exchange-value-single {
+    color: $table-header-text;
+  }
+}
+
+@media (width < 576px) {
+  .exchange-value {
+    font-size: 24px;
+  }
+}

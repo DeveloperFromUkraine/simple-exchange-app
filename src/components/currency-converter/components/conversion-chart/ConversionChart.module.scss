@@ -1,0 +1,21 @@
+.chart-wrapper {
+  height: 500px;
+}
+
+.chart-mobile {
+  display: none;
+}
+
+.chart {
+  display: initial;
+}
+
+@media (width < 630px) {
+  .chart {
+    display: none;
+  }
+
+  .chart-mobile {
+    display: initial;
+  }
+}
